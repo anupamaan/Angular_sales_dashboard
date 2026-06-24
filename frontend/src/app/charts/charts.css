@@ -1,0 +1,14 @@
+.chart-container{
+
+width:50%;
+height:400px;
+margin:20px,0 auto;
+
+}
+
+canvas{
+
+width:100% !important;
+height:350px !important;
+
+}

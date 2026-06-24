@@ -1,0 +1,29 @@
+<h1>Sales Analytics Dashboard</h1>
+
+
+<div class="cards">
+
+  <div class="card sales-card">
+    <h3>Total Sales</h3>
+    <p>{{total_sales}}</p>
+  </div>
+
+  <div class="card orders-card">
+    <h3>Total Orders</h3>
+    <p>{{total_orders}}</p>
+  </div>
+
+  <div class="card quantity-card">
+    <h3>Total Quantity</h3>
+    <p>{{total_quantity}}</p>
+  </div>
+
+  <div class="card average-card">
+    <h3>Average Sales</h3>
+    <p>{{average_sales}}</p>
+  </div>
+
+</div>
+<app-charts [labels]="labels" [data]="dat"> </app-charts>
+<app-reports [regions]="regi" [salesValues]="salesvalue" [svalues]="svalues" [mlabels]="mlabels"> </app-reports>
+
